@@ -24,5 +24,5 @@ for i in range(2, N):
     s += 1  # increment index counter
     n *= 2  # term number doubles each step
 
-print(En)
-print(An)
+print(N, 'iterations of this recurrence relation gives pi = ',  An[-1],)
+print('This has an error of ', En[-1], '\n')
